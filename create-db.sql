@@ -31,6 +31,16 @@ INSERT INTO city (ID, Name, CountryCode, District, Population) VALUES
 (8, 'Dhaka', 'BGD', 'Dhaka', 21525836),
 (9, 'Osaka', 'JPN', 'Osaka', 8839469),
 (10, 'New York', 'USA', 'New York', 8419600);
+(11, 'London', 'GBR', 'England', 8982000),
+(12, 'Paris', 'FRA', 'Ile-de-France', 2148000),
+(13, 'Berlin', 'DEU', 'Berlin', 3645000),
+(14, 'Madrid', 'ESP', 'Madrid', 3223000),
+(15, 'Rome', 'ITA', 'Lazio', 2873000),
+(16, 'Bangkok', 'THA', 'Bangkok', 10500000),
+(17, 'Kuala Lumpur', 'MYS', 'Federal Territory', 1762000),
+(18, 'Istanbul', 'TUR', 'Istanbul', 15500000),
+(19, 'Lagos', 'NGA', 'Lagos', 14360000),
+(20, 'Rio de Janeiro', 'BRA', 'Rio de Janeiro', 6748000);
 
 -- Step 7: Verify Data
 SELECT * FROM city;
